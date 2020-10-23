@@ -1,0 +1,62 @@
+
+<html lang="ch">
+<head>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/05/25/favicon.ico">
+    <title>关于网站迁移的公告</title>
+    <link rel="stylesheet" href="https://res.wx.qq.com/mmocbiz/zh_CN/tmt/home/dist/css/style-home_b3b79821.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@master/Hexo/css/custom.min.css">
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function countDown(secs, surl) {
+            //alert(surl);
+            var jumpTo = document.getElementById('jumpTo');
+            jumpTo.innerHTML = secs + ' 秒';
+            if (--secs > 0) {
+                setTimeout("countDown(" + secs + ",'" + surl + "')", 2000);
+            } else {
+                location.href = surl;
+            }
+        }
+    </script>
+</head>
+
+<body class="mod-single-page ">
+<div class="mod-single-page__box js_sec" style="width:480px; height: 540px;margin-left:-240px;">
+    <div class="mod-single-page__inner" style="padding: 20px;">
+        <div class="mod-single-page__title"><b>关于网站迁移的公告</b></div>
+        <div style="font-size: 16px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;因个人原因，原站点 <span class="inline-tag green">https://xingjiahui.top</span>&nbsp;相关内容和功能将迁移至新站，域名也会做永久性变更，具体地址为
+            <span class="inline-tag green">https://plushine.cn</span>
+            。<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;旧站点现已停止访问，原域名 <span class="inline-tag green">xingjiahui.top</span>
+            期满后也不再续费维护，因网站迁移工作给您带来的不便，尽请谅解！<br>
+            <br>
+            <span id="jumpTo" class="inline-tag blue"> 20</span>&nbsp;后自动跳转到新站，<a
+                href="https://plushine.cn">如未跳转请点击此处访问</a>。
+            <script type="text/javascript">
+                countDown(20, 'https://plushine.cn');
+            </script>
+            <p style="text-align: right;">XJHui&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p style="text-align: right;">2020年07月05日</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+https://plushine.cn/
+
+
+https://idc.iisat.cn/
+
+hexo-theme-butterfly
